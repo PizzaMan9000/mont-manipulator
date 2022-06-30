@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.header {
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: blue 5px solid;
+    box-shadow: 5px 5px 5px cornflowerblue;
+}
+
+#note {
+    color: red;
+    font-weight: bold;
+}
+
+.copy_right_footer {
+    position: fixed;
+    width: 100%;
+    background-color: cornflowerblue;
+    margin: 0px;
+    bottom: 0;
+    padding-top: 10px;
+    text-shadow: 5px 5px 5px black;
+    font-size: 20px;
+}
+
+canvas {
+    border-radius: 10px;
+    border: solid 2px black;
+    animation-name: colors;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    from,to{box-shadow: 0px 0px 15px red;}
+    10%{box-shadow: 0px 0px 15px orangered;}
+    20%{box-shadow: 0px 0px 15px orange;}
+    30%{box-shadow: 0px 0px 15px yellow;}
+    40%{box-shadow: 0px 0px 15px yellowgreen;}
+    50%{box-shadow: 0px 0px 15px green;}
+    60%{box-shadow: 0px 0px 15px darkgreen;}
+    70%{box-shadow: 0px 0px 15px darkcyan;}
+    80%{box-shadow: 0px 0px 15px blue;}
+    90%{box-shadow: 0px 0px 15px darkblue;}
+    100%{box-shadow: 0px 0px 15px purple;}
+}
